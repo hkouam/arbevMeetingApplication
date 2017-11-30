@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "hkouam",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "de.berlin.arbev",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "session",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": "kafka",
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "fr",
+      "de"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.11.1",
+    "packageFolder": "de/berlin/arbev",
+    "rememberMeKey": "70cba2ad79c546c42e17587b1b4d28b4d9af1979",
+    "jhiPrefix": "jhi"
+  }
+}
